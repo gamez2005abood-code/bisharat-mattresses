@@ -2,15 +2,122 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>البشارات - الفرشات والإسفنج</title>
-    <style>
-        body { font-family: Arial; text-align: center; }
-        h1 { color: #004a99; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر البشارات - الفرشات والإسفنج الفاخرة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>البشارات للإسفنج والفرشات</h1>
-    <p>أجود أنواع الفرشات بأسعار مميزة</p>
-    <a href="https://wa.me/962789539684">اطلب الآن عبر واتس</a>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <h2>🛏️ البشارات</h2>
+            <p>الفرشات والإسفنج الفاخرة</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">الرئيسية</a></li>
+                <li><a href="products.html">المتجر</a></li>
+                <li><a href="cart.html">السلة <span id="cartCount" class="badge">0</span></a></li>
+                <li><a href="admin.html" class="admin-link">إدارة</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>🛏️ نومك الملكي يبدأ من هنا</h1>
+        <p>أجود أنواع الفرشات والإسفنج الطبيعية بأسعار منافسة</p>
+        <a href="products.html" class="btn-primary">اكتشف المتجر الآن</a>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="feature-grid">
+            <div class="feature">
+                <i class="fas fa-crown"></i>
+                <h3>جودة فاخرة</h3>
+                <p>إسفنج طبي طبيعي 100%</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-truck"></i>
+                <h3>توصيل سريع</h3>
+                <p>لكل أنحاء الأردن</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>ضمان 5 سنوات</h3>
+                <p>على جميع المنتجات</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-undo"></i>
+                <h3>استرجاع مجاني</h3>
+                <p>خلال 30 يوم</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured-products">
+    <div class="container">
+        <h2>أفضل المنتجات</h2>
+        <div class="products-grid" id="featuredProducts"></div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <h2>آراء الزبائن</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <p>"فرشة ممتازة جداً، راحة لا توصف"</p>
+                <h4>- أحمد السلطي</h4>
+            </div>
+            <div class="testimonial">
+                <p>"خدمة سريعة وتوصيل ممتاز"</p>
+                <h4>- أم محمد</h4>
+            </div>
+            <div class="testimonial">
+                <p>"أفضل استثمار لصحتي"</p>
+                <h4>- سارة علي</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>التواصل</h3>
+                <p>📞 0789539684</p>
+                <p>📧 info@albsharat.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>العنوان</h3>
+                <p>عمّان - الأردن 🇯🇴</p>
+            </div>
+            <div class="footer-section">
+                <h3>تابعنا</h3>
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 البشارات للفرشات والإسفنج - جميع الحقوق محفوظة</p>
+        </div>
+    </div>
+</footer>
+
+<a href="https://wa.me/962789539684?text=السلام عليكم، أريد استفسار عن المنتجات" class="whatsapp-btn" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="js/app.js"></script>
+<script src="js/home.js"></script>
 </body>
 </html>
